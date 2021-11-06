@@ -1,0 +1,22 @@
+.header{
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+        margin-left: 30px;
+        // background: hotpink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 700;
+        text-shadow: 0px 3px 0px rgba(150, 150, 150, 1);
+        cursor: default;
+        color: white;
+    }
+    .settings{
+        margin-right: 30px;
+        background: blue;
+    }
+}

@@ -1,11 +1,16 @@
-import './App.css';
-import { leftBar } from './components/leftBar/leftBar';
+import styles from './App.module.scss';
+import { Content } from './components/content/Content';
+import { Header } from './components/header/Header';
+// import  {LeftBar}  from './components/leftBar/LeftBar.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <leftBar />
-    </div>
+      
+      <div className={styles.wrapper}>
+        <Header />
+        {/* <LeftBar /> */}
+        <Content />
+      </div>
   );
 }
 
