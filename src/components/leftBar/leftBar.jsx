@@ -1,5 +1,8 @@
 import React from 'react';
 
 export const leftBar = () => {
-  return <div>leftBar</div>;
+  return <div>
+    <div>Home</div>
+    <div>List</div>
+  </div>
 };
